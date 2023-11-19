@@ -1,3 +1,5 @@
+<a href="https://github.com/AlexZapl/Multiverse-Entangler/blob/main/LICENSE"><img src="https://img.shields.io/github/license/AlexZapl/Multiverse-Entangler?style=flat"></a>
+
 # Multiverse-Entangler
 My little game. This little game is being created for graduation from school. I will be happy to receive your hints on the game.
 
@@ -8,3 +10,4 @@ You must build your world here. ± in 30 minutes after entering the new world, y
 You need to defeat the enemies and return to the first world where everyone is against you. You kill them anddddd…
 
 That’s all for now!
+https://img.shields.io/badge/license-CC_BY-BA9118
