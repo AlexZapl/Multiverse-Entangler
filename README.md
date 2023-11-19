@@ -10,4 +10,3 @@ You must build your world here. ± in 30 minutes after entering the new world, y
 You need to defeat the enemies and return to the first world where everyone is against you. You kill them anddddd…
 
 That’s all for now!
-https://img.shields.io/badge/license-CC_BY-BA9118
