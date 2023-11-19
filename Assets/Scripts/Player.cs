@@ -6,14 +6,13 @@ public class Player : MonoBehaviour
 {
     public float speed = 10.0f;
     [SerializeField] float jumpForce = 5f;
-    bool IsGrounded;
+    bool IsGrounded = true;
     [SerializeField] Rigidbody rb;
     [SerializeField] Animator anim;
     Vector3 direction;
 
     void Update()
     {
-        print(IsGrounded);
         float MoveHor = Input.GetAxis("Horizontal");
         float MoveVer = Input.GetAxis("Vertical");
 
@@ -23,15 +22,15 @@ public class Player : MonoBehaviour
         {
             anim.SetBool("Walk", true);
         }
-        else;
+        else
         {
             anim.SetBool("Walk", false);
         }
-        if (IsGrounded = true)
+        if (IsGrounded == true)
         {
             anim.SetBool("Jump", false);
         }
-        else;
+        else if (IsGrounded == false)
         {
             anim.SetBool("Jump", true);
         }
@@ -52,6 +51,11 @@ public class Player : MonoBehaviour
     {
         IsGrounded = true;
     }
+    private void OnCollisionExit(Collision collision)
+    {
+        IsGrounded = false;
+    }
+
 
     private void OnTriggerEnter(Collider other)
     {
