@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -7,8 +8,11 @@ public class Player : MonoBehaviour
     public float speed = 10.0f;
     [SerializeField] float jumpForce = 5f;
     bool IsGrounded = true;
+    bool IsInventoryActive;
     [SerializeField] Rigidbody rb;
     [SerializeField] Animator anim;
+    [SerializeField] GameObject inventoryUI;
+
     Vector3 direction;
 
     void Update()
@@ -39,6 +43,15 @@ public class Player : MonoBehaviour
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.VelocityChange);
             IsGrounded = false;
+        }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            inventoryUI.SetActive(!IsInventoryActive);
+            IsInventoryActive = !IsInventoryActive;
+        }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 
