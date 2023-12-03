@@ -69,14 +69,4 @@ public class Player : MonoBehaviour
         IsGrounded = false;
     }
 
-
-    private void OnTriggerEnter(Collider other)
-    {
-        switch (other.tag)
-        {
-            case "Fluid/lava":
-                    //nothing here
-                    break;
-        }
-    }
 }
