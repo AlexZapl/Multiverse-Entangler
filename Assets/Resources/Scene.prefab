@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8730898835231424719}
   - component: {fileID: 1097907896930318001}
   - component: {fileID: 8804885972306217877}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -367,7 +367,7 @@ GameObject:
   - component: {fileID: 392728016947717677}
   - component: {fileID: 3077764417785822491}
   - component: {fileID: 8618098827590975913}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hut1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -724,7 +724,7 @@ GameObject:
   - component: {fileID: 6358284691665687819}
   - component: {fileID: 959427451966406994}
   - component: {fileID: 2263879508397131072}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SceneRock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1076,7 +1076,7 @@ GameObject:
   - component: {fileID: 4752666672354515057}
   - component: {fileID: 3478732971894555481}
   - component: {fileID: 1570733356026940338}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lava
   m_TagString: Fluid/Lava
   m_Icon: {fileID: 0}
@@ -1206,7 +1206,7 @@ GameObject:
   - component: {fileID: 8159396727414003208}
   - component: {fileID: 6963287984096192178}
   - component: {fileID: 6476505037454981478}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SceneRock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1559,7 +1559,7 @@ GameObject:
   - component: {fileID: 3622721030494815918}
   - component: {fileID: 1204767480463614844}
   - component: {fileID: 7841472305049515201}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SceneRock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1914,7 +1914,7 @@ GameObject:
   - component: {fileID: 2818006550037824983}
   - component: {fileID: 2604600292452257721}
   - component: {fileID: 4657104542770949815}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2103,7 +2103,7 @@ GameObject:
   - component: {fileID: 9088651031203512792}
   - component: {fileID: 4400965897268047462}
   - component: {fileID: 8930381379028916584}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2224,7 +2224,7 @@ GameObject:
   - component: {fileID: 4650613527030882674}
   - component: {fileID: 4283131800787013122}
   - component: {fileID: 1940079404866813742}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2577,7 +2577,7 @@ GameObject:
   - component: {fileID: 4066501719572385791}
   - component: {fileID: 4378754039094472946}
   - component: {fileID: 1425888919347227803}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Scene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2937,7 +2937,7 @@ GameObject:
   - component: {fileID: 2666303850989621906}
   - component: {fileID: 1120956606012663957}
   - component: {fileID: 3984443469222176960}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Prism
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3252,6 +3252,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Friend
       objectReference: {fileID: 0}
+    - target: {fileID: 5121135438328598474, guid: b4b77c3aaf846674692e1b56e558c29c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5220498009026521268, guid: b4b77c3aaf846674692e1b56e558c29c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3325,6 +3330,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Friend (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5121135438328598474, guid: b4b77c3aaf846674692e1b56e558c29c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5220498009026521268, guid: b4b77c3aaf846674692e1b56e558c29c,
         type: 3}
@@ -3450,6 +3460,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monster
       objectReference: {fileID: 0}
+    - target: {fileID: 4324638912298956060, guid: f37ff50a74482ac439e302d05577549c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194574708412707904, guid: f37ff50a74482ac439e302d05577549c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3473,6 +3493,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Friend (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5121135438328598474, guid: b4b77c3aaf846674692e1b56e558c29c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5220498009026521268, guid: b4b77c3aaf846674692e1b56e558c29c,
         type: 3}

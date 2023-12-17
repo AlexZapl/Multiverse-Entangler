@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     [SerializeField] Rigidbody rb;
     [SerializeField] Animator anim;
     [SerializeField] GameObject inventoryUI;
+    [SerializeField] Inventory inv;
 
     Vector3 direction;
 
@@ -48,6 +49,7 @@ public class Player : MonoBehaviour
         {
             inventoryUI.SetActive(!IsInventoryActive);
             IsInventoryActive = !IsInventoryActive;
+            inv.UpdateUI();
         }
         if (Input.GetKeyDown(KeyCode.R))
         {
