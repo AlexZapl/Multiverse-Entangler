@@ -1,4 +1,6 @@
 <a href="https://github.com/AlexZapl/Multiverse-Entangler/blob/main/LICENSE"><img src="https://img.shields.io/github/license/AlexZapl/Multiverse-Entangler?style=flat"></a>
+<br>
+<a href="https://alexzapl.itch.io/multiverse-entangler"><img src="https://img.shields.io/badge/MY-ITCH.IO-red?style=flat"></a>
 
 # Multiverse-Entangler
 My little game. This little game is being created for graduation from school. I will be happy to receive your hints on the game.
